@@ -1,6 +1,8 @@
 <script setup>
 onMounted(() => {
-  navigateTo("https://www.youtube.com/channel/UC-y_T4dJf9l9I4f-ZUb59pg/live");
+  navigateTo("https://www.youtube.com/channel/UC-y_T4dJf9l9I4f-ZUb59pg/live", {
+    external: true,
+  });
 });
 </script>
 

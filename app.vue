@@ -1,6 +1,6 @@
 <script setup>
 onMounted(() => {
-  navigateTo("https://www.youtube.com/channel/UC-y_T4dJf9l9I4f-ZUb59pg/live", {
+  navigateTo("https://discord.gg/HypMUgBqZ3", {
     external: true,
   });
 });
@@ -8,7 +8,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <h3>Off to youtube!</h3>
+    <h3>Loading Discord Invite!</h3>
     <!-- Logo or something -->
   </div>
 </template>

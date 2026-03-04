@@ -1,16 +1,9 @@
 <script setup>
-onMounted(() => {
-  navigateTo("https://discord.gg/HypMUgBqZ3", {
-    external: true,
-  });
-});
+// Root wrapper: /app is handled by middleware (app-redirect.global.ts), default / is handled by pages/index.vue
 </script>
 
 <template>
-  <div>
-    <h3>Loading Discord Invite!</h3>
-    <!-- Logo or something -->
-  </div>
+  <NuxtPage />
 </template>
 
 <style lang="scss">
